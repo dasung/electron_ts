@@ -1,0 +1,19 @@
+{
+  "name": "ts-electron-demo",
+  "version": "1.0.0",
+  "description": "Sample application using Type Script and Electron",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo err"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dasung/electron_ts.git"
+  },
+  "author": "Dasun  Tharaka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dasung/electron_ts/issues"
+  },
+  "homepage": "https://github.com/dasung/electron_ts#readme"
+}
