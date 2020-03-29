@@ -1,17 +1,23 @@
 # electorn
 
 1. npm init
-2. 
 
-* 
-* 
-* Version installed: v8.2.0 
-* Node version: v12.13.1
+2. npm install -g --save-dev electron
 
-Commond to run: 
-		electron main.js
+3.  npm install typescript -g    // install type script compiler
 
-* 1st tutorial:  https://medium.com/@davembush/typescript-and-electron-the-right-way-141c2e15e4e1 
-  *  npm install typescript -g    // install type script compiler
-  * typescript --version : 1.0.3.0
-  * 
+   * tsc --version
+   *  Turning this Node application into an Electron application is quite simple - we merely replace the `node` runtime with the `electron` runtime. 
+
+   <pre>
+       {
+         "name": "your-app",
+         "version": "0.1.0",
+         "main": "main.js",
+         "scripts": {
+           "start": "electron ."
+         }
+       }
+   </pre>
+
+4. npm start
