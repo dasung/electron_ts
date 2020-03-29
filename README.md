@@ -21,3 +21,10 @@
    </pre>
 
 4. npm start
+
+5.  You can use Bower to manage these front-end dependencies. Install bower using − 
+
+   * npm install -g bower
+   * bower install bootstrap
+
+6. tsc --version: 3.8.3
