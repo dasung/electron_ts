@@ -12,6 +12,9 @@ function createWindow () {
 
   // and load the index.html of the app.
   win.loadFile('index.html')
+
+  // Open the DevTools for debugging
+  // win.webContents.openDevTools()
 }
 
 app.whenReady().then(createWindow)
