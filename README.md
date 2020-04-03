@@ -28,3 +28,11 @@
    * bower install bootstrap
 
 6. tsc --version: 3.8.3
+
+7. File io
+
+   1.  https://www.tutorialspoint.com/electron/electron_file_handling.htm 
+
+8. To use node inside TypeScript, dependency issue must be solved.
+
+   1. It needs to install Node's type definitions
